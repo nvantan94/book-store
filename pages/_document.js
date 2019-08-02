@@ -65,15 +65,15 @@ class MyDocument extends Document {
             `}
           </style>
         </Head>
-        <body>
+        <body 
           style={{
-            font: "16px Muli",
-            color: "#222",
-            margin: "0px auto",
-            fontWeight: "300",
-            lineHeight: "1.5em",
-            backgroundColor: "#F7F9FC"
-          }}
+            font: '16px Muli',
+            color: '#222',
+            margin: '0px auto',
+            fontWeight: '300',
+            lineHeight: '1.5em',
+            backgroundColor: '#F7F9FC'
+          }} >
           <Main />
           <NextScript />
         </body>
